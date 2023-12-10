@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chartered carpentry</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a href="index.html"><img class="logo" src="assets/chartered cerpentry logo.png" alt="logo"></a>
+
+            <img id="mobile-cta" class="MobileMenu" src="assets/hamburger.svg" alt="Open menu">
+
+            <nav class="mobile-nav background">
+
+                   <img id="mobile-exit" class="MobileMenu-exit" src="assets/hamburgerClose.svg" alt="Close menu">
+
+                <ul>
+                    <li><a href="index.html" class="nav__links">Home</a></li>
+                    <li><a href="contact.html" class="nav__links">Contact</a></li>
+                    <li><a href="about.html" class="nav__links">About</a></li>
+                    <li><a href="projects.html" class="nav__links">Project</a></li>
+                    <div class="column">
+                        <li>
+                            <a href="tel:+2348178454276">
+                                <img class="icon1" src="assets/icons/phone.svg" alt="call us">
+                                <img class="icon2" src="assets/icons/phone 2.svg" alt="call us">
+                                <p class="num">+2348178454276</p>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="socials">
+                        <a href=""><img src="assets/icons/twitter copy.svg" alt="twitter"></a>
+                        <a href=""><img src="assets/icons/instagram copy.svg" alt="instagram"></a>
+                        <a href=""><img src="assets/icons/facebook copy.svg" alt="facebook"></a>
+                    </div>
+
+                    <div class="cta">
+                        <a href="tel">Call</a>
+                        <a href="tel">Mail</a>
+                    </div>
+                </ul>
+                
+            </nav>
+        </div>
+    </div>
+    
+    <section class="contact">
+        <div class="container">
+            <div class="headerp">
+                <h2>get in touch</h2>
+                <span class="line"></span>
+                <p>contact us now to get a quote</p>
+            </div>
+
+            <div class="cols">
+                <div class="col-left">
+                    <form action="https://formspree.io/f/mqkvberp" method="POST" id="myForm">
+                        <input type="text" name="Name" placeholder="Enter your name here" id="Name" required>
+                        <input type="text" name="Email" placeholder="Enter your email here" id="Email" required>
+                        <select name="Select" id="select">
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="Kitchen Cabinet">Kitchen Cabinet</option>
+                            <option value="Wardrobe">Wardrobe</option>
+                            <option value="Home furniture">Home furniture</option>
+                            <option value="Training">Training</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <textarea name="Message" id="message" placeholder="Enter your message here" required></textarea>
+                        <button type="submit" id="submit" onclick="FormValidation()">Send message</button>
+                    </form>
+                </div>
+
+                <div class="text-cont">
+                    <p>leave us a message and we'll get back to you within 24 hours</p>
+                </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.084731632877!2d3.3427612742651815!3d6.6363991218425635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93a58d64b3f5%3A0xf074e2d930ed2548!2sChartered%20Carpentry!5e0!3m2!1sen!2sng!4v1691401162224!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="wrapper">
+            <div class="column">
+                <h4>About us</h4>
+                <p>Chartered Carpentry is a furniture production company that provides carpentry services to property developers in the real estate industry, government agencies corporate organizations as well as individuals in Nigeria.</p>
+            </div>
+            <div class="column">
+                <h4>quick links</h4>
+                <div class="row">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="column">
+                <h4>contact us</h4>
+                <div class="row">
+                    <a href="">53, shonola street, Ogba, Lagos.</a>
+                    <a href="mailto:charteredcarpentry@gmail.com">charteredcarpentry@gmail.com</a>
+                    <a href="tel:+2348178454276">+234 8178454276</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy 2023 Chartered Carpentry.</p>
+            <div class="icons">
+                <a href=""><img src="assets/icons/twitter.svg" alt="twitter"></a>
+                <a href=""><img src="assets/icons/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="assets/icons/facebook.svg" alt="facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/+2348064089557" target="_blank" class="whatsapp-button">
+        <i class="fa fa-whatsapp"></i> 
+    </a>
+</body>
+</html>
