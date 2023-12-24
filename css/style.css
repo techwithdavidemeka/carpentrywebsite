@@ -513,7 +513,7 @@ section {
           align-items: flex-start;
   width: 100%;
   padding: 30px;
-  background-image: url(../assets/projects/3.jpeg);
+  background-image: url(../assets/Ilustrations/aboutusheader.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: unset;
@@ -528,7 +528,7 @@ section {
   word-spacing: 6px;
   font-size: unset;
   font-size: 25px;
-  color: white;
+  color: #ffffff;
   z-index: 99;
 }
 
@@ -566,7 +566,6 @@ section {
           justify-content: center;
   text-align: left;
   gap: 30px;
-  background: #eceff8;
   padding: 30px 30px 80px 30px;
 }
 
@@ -663,7 +662,7 @@ section {
           align-items: flex-start;
   width: 100%;
   padding: 30px;
-  background-image: url(../assets/projects/3.jpeg);
+  background-image: url(../assets/Ilustrations/contactheader.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: unset;
@@ -1636,7 +1635,7 @@ section {
 .contact .container iframe {
   margin: 2em 0;
   width: 100%;
-  height: 700px;
+  height: 600px;
 }
 
 .gold {
@@ -2196,6 +2195,10 @@ textarea {
   background: var(--light-green);
 }
 
+.bg__light-brown {
+  background: var(--accent-color);
+}
+
 .background2 {
   background-image: url("../assets/sittingroom.avif");
   background-repeat: no-repeat;
@@ -2379,11 +2382,11 @@ textarea {
   font-size: 18px;
   text-decoration: none;
   color: #3d2e14;
-  background: #E5C6B2;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .mobile-nav ul .cta a:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--prim-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -2607,7 +2610,7 @@ textarea {
     width: 600px;
   }
   .about-us-page .container .header-container {
-    height: 240px;
+    height: inherit;
   }
   .about-us-page .container .header-container h2 {
     font-size: 35px;
