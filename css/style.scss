@@ -612,8 +612,9 @@ section{
         .card{
             width: 100%;
             height: fit-content;
-            overflow: visible;
+            overflow: hidden;
             position: relative;
+            box-sizing: border-box;
             padding: 0px 0px 0px 0px;
             display: flex;
             flex-direction: column;
@@ -639,6 +640,7 @@ section{
                     }
                 }
             }
+
 
             
 
@@ -1786,7 +1788,7 @@ textarea{
 
 
 
-@media only screen and(min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     h2{
         font-size: 35px;
@@ -2055,7 +2057,7 @@ textarea{
     }
 
     .team .team-cards{
-        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
         gap: 25px;
         width: 100%;
 
@@ -2076,7 +2078,7 @@ textarea{
 
         img{
             height: auto;
-            width: 100%;
+            width: 100px;
         }
     }
 
