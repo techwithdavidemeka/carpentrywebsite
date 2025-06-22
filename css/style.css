@@ -2668,8 +2668,8 @@ textarea {
   }
   .team .team-cards {
     -ms-grid-columns: (minmax(200px, 1fr))[3];
-        grid-template-columns: repeat(3, minmax(200px, 1fr));
-    gap: 25px;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 200px;
     width: 100%;
   }
   .team .team-cards .card {
@@ -2902,4 +2902,3 @@ textarea {
     font-size: 16px;
   }
 }
-/*# sourceMappingURL=style.css.map */
